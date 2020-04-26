@@ -25,6 +25,4 @@ Para este desafio você precisará :
 Para instalar, confira os links na seção de conteúdo.
 
 Obs.: Tente usar o mínimo de bibliotecas possível # fibonacci
-# fibonacci
-# fibonacci
-# fibonacci
+
