@@ -4,7 +4,7 @@
   "description": "Faça um método `fibonacci` que retorne um `Array` com os primeiro números de série de *Fibonacci* até passar de *350*.",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha test/index.test.js",
+    "test": "jest",
     "test:watch": "mocha test/index.test.js --watch",
     "test:submit": "mocha test/submit.test.js --reporter mocha-junit-reporter --reporter-options mochaFile=./output.xml | exit 0"
   },
@@ -12,6 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.2.0",
+    "jest": "^26.0.0",
     "mocha": "^5.2.0",
     "mocha-junit-reporter": "^1.18.0"
   },
